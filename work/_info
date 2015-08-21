@@ -1,0 +1,130 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/eric/Documents/Verilog_stuff/AMdemod
+vAMdemod
+!s110 1440134788
+!i10b 1
+!s100 PJe40OP@bA5<iRc<5E@`e3
+IUaLfY<R?D6B]:M1M09<=L2
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1440134774
+8/home/eric/Documents/Verilog_stuff/AMdemod/AMdemodulator/AMdemod.v
+F/home/eric/Documents/Verilog_stuff/AMdemod/AMdemodulator/AMdemod.v
+L0 3
+Z2 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1440134788.278496
+!s107 /home/eric/Documents/Verilog_stuff/AMdemod/AMdemodulator/AMdemod.v|
+!s90 -reportprogress|300|-work|work|/home/eric/Documents/Verilog_stuff/AMdemod/AMdemodulator/AMdemod.v|
+!i113 1
+Z3 o-work work
+n@a@mdemod
+vAMdemod_tb
+!s110 1440134791
+!i10b 1
+!s100 hBnW[h3m8FA>8XR`mM2]?3
+I>n;bl3]kS^Gaf1Qif@gf33
+R1
+R0
+w1440134333
+8/home/eric/Documents/Verilog_stuff/AMdemod/AMdemodulator/AMdemod_tb.v
+F/home/eric/Documents/Verilog_stuff/AMdemod/AMdemodulator/AMdemod_tb.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1440134791.782364
+!s107 /home/eric/Documents/Verilog_stuff/AMdemod/AMdemodulator/AMdemod_tb.v|
+!s90 -reportprogress|300|-work|work|/home/eric/Documents/Verilog_stuff/AMdemod/AMdemodulator/AMdemod_tb.v|
+!i113 1
+R3
+n@a@mdemod_tb
+vcic
+Z4 !s110 1440131947
+!i10b 1
+!s100 2QcbWe7;b>N=E5BA>F?ko1
+IXVO9iDTLaX?alkG?ea:fm1
+R1
+R0
+w1439954460
+8IP/CIC/cic/simulation/cic.v
+FIP/CIC/cic/simulation/cic.v
+L0 6
+R2
+r1
+!s85 0
+31
+!s108 1440131947.733288
+!s107 IP/CIC/cic/simulation/cic.v|
+!s90 -reportprogress|300|IP/CIC/cic/simulation/cic.v|
+!i113 1
+vcic_cic_ii_0
+!s110 1440131948
+!i10b 1
+!s100 YChi@GBF1zO9<C_D[nfKd3
+ID4e4Fm]27Mo[6eG0o:lmE1
+R1
+R0
+w1439954490
+8IP/CIC/cic/simulation/submodules/cic_cic_ii_0.vo
+FIP/CIC/cic/simulation/submodules/cic_cic_ii_0.vo
+Z5 L0 32
+R2
+r1
+!s85 0
+31
+!s108 1440131947.807317
+!s107 IP/CIC/cic/simulation/submodules/cic_cic_ii_0.vo|
+!s90 -reportprogress|300|IP/CIC/cic/simulation/submodules/cic_cic_ii_0.vo|
+!i113 1
+vLO
+R4
+!i10b 1
+!s100 ]:UGDLPZW2A4ak>6YeDEj1
+I48m=;82giWOJ;M0^0YP[70
+R1
+R0
+w1439870611
+8IP/LO/simulation/LO.v
+FIP/LO/simulation/LO.v
+L0 6
+R2
+r1
+!s85 0
+31
+!s108 1440131947.410409
+!s107 IP/LO/simulation/LO.v|
+!s90 -reportprogress|300|IP/LO/simulation/LO.v|
+!i113 1
+n@l@o
+vLO_nco_ii_0
+R4
+!i10b 1
+!s100 LDcl@?3G:NLcX7CDUbG082
+I5ghFS3_3MPPIcC_LlJ_zB3
+R1
+R0
+w1439870639
+8IP/LO/simulation/submodules/LO_nco_ii_0.vo
+FIP/LO/simulation/submodules/LO_nco_ii_0.vo
+R5
+R2
+r1
+!s85 0
+31
+!s108 1440131947.457708
+!s107 IP/LO/simulation/submodules/LO_nco_ii_0.vo|
+!s90 -reportprogress|300|IP/LO/simulation/submodules/LO_nco_ii_0.vo|
+!i113 1
+n@l@o_nco_ii_0

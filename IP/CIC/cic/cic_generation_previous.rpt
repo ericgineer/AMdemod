@@ -1,0 +1,61 @@
+Info: Starting: Create simulation model
+Info: qsys-generate /home/eric/Documents/Verilog_stuff/AMdemod/CIC/cic.qsys --simulation=VERILOG --output-directory=/home/eric/Documents/Verilog_stuff/AMdemod/CIC/cic/simulation --family="Cyclone V" --part=5CEFA2F23C8
+Progress: Loading CIC/cic.qsys
+Progress: Reading input file
+Progress: Adding cic_ii_0 [altera_cic_ii 15.0]
+Progress: Parameterizing module cic_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: cic: Generating cic "cic" for SIM_VERILOG
+Info: cic_ii_0: "cic" instantiated altera_cic_ii "cic_ii_0"
+Info: cic: Done "cic" with 2 modules, 2 files
+Info: ip-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=/home/eric/Documents/Verilog_stuff/AMdemod/CIC/cic/cic.spd --output-directory=/home/eric/Documents/Verilog_stuff/AMdemod/CIC/cic/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=/home/eric/Documents/Verilog_stuff/AMdemod/CIC/cic/cic.spd --output-directory=/home/eric/Documents/Verilog_stuff/AMdemod/CIC/cic/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in /home/eric/Documents/Verilog_stuff/AMdemod/CIC/cic/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in /home/eric/Documents/Verilog_stuff/AMdemod/CIC/cic/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in /home/eric/Documents/Verilog_stuff/AMdemod/CIC/cic/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in /home/eric/Documents/Verilog_stuff/AMdemod/CIC/cic/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	1 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in /home/eric/Documents/Verilog_stuff/AMdemod/CIC/cic/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate /home/eric/Documents/Verilog_stuff/AMdemod/CIC/cic.qsys --block-symbol-file --output-directory=/home/eric/Documents/Verilog_stuff/AMdemod/CIC/cic --family="Cyclone V" --part=5CEFA2F23C8
+Progress: Loading CIC/cic.qsys
+Progress: Reading input file
+Progress: Adding cic_ii_0 [altera_cic_ii 15.0]
+Progress: Parameterizing module cic_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /home/eric/Documents/Verilog_stuff/AMdemod/CIC/cic.qsys --synthesis=VERILOG --output-directory=/home/eric/Documents/Verilog_stuff/AMdemod/CIC/cic/synthesis --family="Cyclone V" --part=5CEFA2F23C8
+Progress: Loading CIC/cic.qsys
+Progress: Reading input file
+Progress: Adding cic_ii_0 [altera_cic_ii 15.0]
+Progress: Parameterizing module cic_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: cic: Generating cic "cic" for QUARTUS_SYNTH
+Info: cic_ii_0: "cic" instantiated altera_cic_ii "cic_ii_0"
+Info: cic: Done "cic" with 2 modules, 31 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

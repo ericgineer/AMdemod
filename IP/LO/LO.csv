@@ -1,0 +1,19 @@
+# system info LO on 2015.08.17.21:03:59
+system_info:
+name,value
+DEVICE,5CGXFC3B6F23C6
+DEVICE_FAMILY,Cyclone V
+GENERATION_ID,1439870611
+#
+#
+# Files generated for LO on 2015.08.17.21:03:59
+files:
+filepath,kind,attributes,module,is_top
+simulation/LO.v,VERILOG,,LO,true
+simulation/submodules/LO_nco_ii_0_tb.vhd,OTHER,,LO_nco_ii_0,false
+simulation/submodules/LO_nco_ii_0.vo,VERILOG,,LO_nco_ii_0,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+LO.nco_ii_0,LO_nco_ii_0

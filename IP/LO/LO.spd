@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="simulation/submodules/LO_nco_ii_0_tb.vhd"
+   type="OTHER"
+   library="nco_ii_0" />
+ <file
+   path="simulation/submodules/LO_nco_ii_0.vo"
+   type="VERILOG"
+   library="nco_ii_0" />
+ <file path="simulation/LO.v" type="VERILOG" />
+ <topLevel name="LO" />
+ <deviceFamily name="cyclonev" />
+</simPackage>

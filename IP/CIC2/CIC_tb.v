@@ -30,7 +30,7 @@ module CIC_tb;
 		rst <= 1'b0;
 		decimation_ratio <= 16'd12500;
 		d_in <= 13'b0;
-		x_in <= $fopen("x.txt","r");
+		x_in <= $fopen("square.txt","r");
 		x_out <= $fopen("x_out.txt","w");
 	end 
 	

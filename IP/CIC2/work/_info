@@ -7,46 +7,46 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 d/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC2
+d/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC2
 vCIC
-Z1 !s110 1440739771
+!s110 1440986912
 !i10b 1
-!s100 Sl]Wb`N@d^DXEHFYDKRdi3
-Ia0mjLYOiWG>6kDT_[VX1]0
-Z2 V`JN@9S9cnhjKRR_L]QIcM3
-R0
-w1440739213
-8/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC2/CIC.v
-F/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC2/CIC.v
+!s100 QQj7z2U=dzWT@iaEX?3<b3
+IDhK>a=U456eX;?KFSC5nQ1
+Z0 V`JN@9S9cnhjKRR_L]QIcM3
+Z1 d/home/eric/GitHub/AMdemod/IP/CIC2
+w1440986907
+8/home/eric/GitHub/AMdemod/IP/CIC2/CIC.v
+F/home/eric/GitHub/AMdemod/IP/CIC2/CIC.v
 L0 5
-Z3 OV;L;10.3d;59
+Z2 OV;L;10.3d;59
 r1
 !s85 0
 31
-!s108 1440739771.634740
-!s107 /home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC2/CIC.v|
-!s90 -reportprogress|300|-work|work|/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC2/CIC.v|
+!s108 1440986912.718847
+!s107 /home/eric/GitHub/AMdemod/IP/CIC2/CIC.v|
+!s90 -reportprogress|300|-work|work|/home/eric/GitHub/AMdemod/IP/CIC2/CIC.v|
 !i113 1
-Z4 o-work work
+Z3 o-work work
 n@c@i@c
 vCIC_tb
-R1
+!s110 1440987359
 !i10b 1
-!s100 ;Xf>m70mlI<h74lJSTaMc1
-I3<kM^hP]<YI`2l^ncAiCC3
-R2
+!s100 P@UD;N<4MdgNdhPCA_XSQ3
+IBc9=H@@B955c5Hgc<Y8E62
 R0
-w1440739638
-8/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC2/CIC_tb.v
-F/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC2/CIC_tb.v
+R1
+w1440987348
+8/home/eric/GitHub/AMdemod/IP/CIC2/CIC_tb.v
+F/home/eric/GitHub/AMdemod/IP/CIC2/CIC_tb.v
 L0 3
-R3
+R2
 r1
 !s85 0
 31
-!s108 1440739771.589482
-!s107 /home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC2/CIC_tb.v|
-!s90 -reportprogress|300|-work|work|/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC2/CIC_tb.v|
+!s108 1440987359.941438
+!s107 /home/eric/GitHub/AMdemod/IP/CIC2/CIC_tb.v|
+!s90 -reportprogress|300|-work|work|/home/eric/GitHub/AMdemod/IP/CIC2/CIC_tb.v|
 !i113 1
-R4
+R3
 n@c@i@c_tb

@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/eric/GitHub/AMdemod/IP/SerialFIR
+vParallelFIR
+!s110 1440993970
+!i10b 1
+!s100 ejYK`IkPm]l:z6n<XCPg63
+I_kQOl[;kGe]8kQCMkf[J;3
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1440993922
+8/home/eric/GitHub/AMdemod/IP/SerialFIR/ParallelFIR.v
+F/home/eric/GitHub/AMdemod/IP/SerialFIR/ParallelFIR.v
+Z2 Fcoeff.v
+L0 8
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1440993970.421833
+!s107 coeff.v|/home/eric/GitHub/AMdemod/IP/SerialFIR/ParallelFIR.v|
+!s90 -##implicit##push_minusfile_path##|/home/eric/GitHub/AMdemod/IP/SerialFIR/vlog.opt|+incdir+/home/eric/GitHub/AMdemod/IP/SerialFIR|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|/home/eric/GitHub/AMdemod/IP/SerialFIR/ParallelFIR.v|
+!i113 1
+Z4 o-work work
+Z5 !s92 +incdir+/home/eric/GitHub/AMdemod/IP/SerialFIR -work work
+n@parallel@f@i@r
+vSerialFIR
+!s110 1440993962
+!i10b 1
+!s100 6<:^8FkfPCU4jDmAUR:3D3
+Ib>lLN`3QbkKSiY<Z9O?La2
+R1
+R0
+w1440993945
+8/home/eric/GitHub/AMdemod/IP/SerialFIR/SerialFIR.v
+F/home/eric/GitHub/AMdemod/IP/SerialFIR/SerialFIR.v
+R2
+L0 5
+R3
+r1
+!s85 0
+31
+!s108 1440993962.933513
+!s107 coeff.v|/home/eric/GitHub/AMdemod/IP/SerialFIR/SerialFIR.v|
+!s90 -##implicit##push_minusfile_path##|/home/eric/GitHub/AMdemod/IP/SerialFIR/vlog.opt|+incdir+/home/eric/GitHub/AMdemod/IP/SerialFIR|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|/home/eric/GitHub/AMdemod/IP/SerialFIR/SerialFIR.v|
+!i113 1
+R4
+R5
+n@serial@f@i@r
+vSerialFIR_tb
+!s110 1440994694
+!i10b 1
+!s100 >;_<CH_k>NHAVf[[1PU7`0
+IdC0NDKa9=WJ5nMjhSXQb?0
+R1
+R0
+w1440994687
+8/home/eric/GitHub/AMdemod/IP/SerialFIR/SerialFIR_tb.v
+F/home/eric/GitHub/AMdemod/IP/SerialFIR/SerialFIR_tb.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1440994694.487906
+!s107 /home/eric/GitHub/AMdemod/IP/SerialFIR/SerialFIR_tb.v|
+!s90 -##implicit##push_minusfile_path##|/home/eric/GitHub/AMdemod/IP/SerialFIR/vlog.opt|+incdir+/home/eric/GitHub/AMdemod/IP/SerialFIR|-##implicit##pop_minusfile_path##|-reportprogress|300|-work|work|/home/eric/GitHub/AMdemod/IP/SerialFIR/SerialFIR_tb.v|
+!i113 1
+R4
+R5
+n@serial@f@i@r_tb

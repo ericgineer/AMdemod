@@ -1,6 +1,6 @@
 `timescale 1ns/1ns
 
-`define width 72
+`define width 77
 
 module CIC(
 	input wire               clk,
@@ -63,20 +63,15 @@ reg [15:0] count;
 		end else
 		begin
 			// Integrator section
-			d1 <= d_in + d_d1;
-			d_d1 <= d1;
+			d1 <= d_in + d1;
 			
-			d2 <= d1 + d_d2;
-			d_d2 <= d2;
+			d2 <= d1 + d2;
 			
-			d3 <= d2 + d_d3;
-			d_d3 <= d3;
+			d3 <= d2 + d3;
 			
-			d4 <= d3 + d_d4;
-			d_d4 <= d4;
+			d4 <= d3 + d4;
 			
-			d5 <= d4 + d_d5;
-			d_d5 <= d5;
+			d5 <= d4 + d5;
 			
 			// Decimation
 			

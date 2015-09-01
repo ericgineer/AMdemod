@@ -2,30 +2,18 @@ onerror {resume}
 quietly WaveActivateNextPane {} 0
 add wave -noupdate -divider tb
 add wave -noupdate -group tb /SerialFIR_tb/clk
-add wave -noupdate -group tb /SerialFIR_tb/clk_8x
 add wave -noupdate -group tb /SerialFIR_tb/rst
 add wave -noupdate -group tb /SerialFIR_tb/v
-add wave -noupdate -group tb /SerialFIR_tb/coeff1
-add wave -noupdate -group tb /SerialFIR_tb/coeff2
-add wave -noupdate -group tb /SerialFIR_tb/coeff3
-add wave -noupdate -group tb /SerialFIR_tb/coeff4
-add wave -noupdate -group tb /SerialFIR_tb/coeff5
 add wave -noupdate -group tb /SerialFIR_tb/x
-add wave -noupdate -group tb /SerialFIR_tb/y_s
-add wave -noupdate -group tb /SerialFIR_tb/y_p
+add wave -noupdate -group tb -height 17 -max 42815.0 -min -44688.0 /SerialFIR_tb/y_s
+add wave -noupdate -group tb -height 17 -max 42815.0 -min -44688.0 /SerialFIR_tb/y_p
 add wave -noupdate -group tb /SerialFIR_tb/x_in
 add wave -noupdate -group tb /SerialFIR_tb/x_read
 add wave -noupdate -group tb /SerialFIR_tb/count
 add wave -noupdate -group tb /SerialFIR_tb/clk_out
 add wave -noupdate -divider SerialFIR
 add wave -noupdate -group SerialFIR /SerialFIR_tb/SerialFIR/clk
-add wave -noupdate -group SerialFIR /SerialFIR_tb/SerialFIR/clk_8x
 add wave -noupdate -group SerialFIR /SerialFIR_tb/SerialFIR/rst
-add wave -noupdate -group SerialFIR /SerialFIR_tb/SerialFIR/coeff1
-add wave -noupdate -group SerialFIR /SerialFIR_tb/SerialFIR/coeff2
-add wave -noupdate -group SerialFIR /SerialFIR_tb/SerialFIR/coeff3
-add wave -noupdate -group SerialFIR /SerialFIR_tb/SerialFIR/coeff4
-add wave -noupdate -group SerialFIR /SerialFIR_tb/SerialFIR/coeff5
 add wave -noupdate -group SerialFIR /SerialFIR_tb/SerialFIR/x
 add wave -noupdate -group SerialFIR /SerialFIR_tb/SerialFIR/y
 add wave -noupdate -group SerialFIR /SerialFIR_tb/SerialFIR/clk_out
@@ -42,11 +30,6 @@ add wave -noupdate -group SerialFIR /SerialFIR_tb/SerialFIR/sum_clr
 add wave -noupdate -group SerialFIR -radix decimal /SerialFIR_tb/SerialFIR/select
 add wave -noupdate -group SerialFIR -radix decimal /SerialFIR_tb/SerialFIR/state
 add wave -noupdate -divider ParallelFIR
-add wave -noupdate -group ParallelFIR /SerialFIR_tb/ParallelFIR/coeff1
-add wave -noupdate -group ParallelFIR /SerialFIR_tb/ParallelFIR/coeff2
-add wave -noupdate -group ParallelFIR /SerialFIR_tb/ParallelFIR/coeff3
-add wave -noupdate -group ParallelFIR /SerialFIR_tb/ParallelFIR/coeff4
-add wave -noupdate -group ParallelFIR /SerialFIR_tb/ParallelFIR/coeff5
 add wave -noupdate -group ParallelFIR /SerialFIR_tb/ParallelFIR/clk
 add wave -noupdate -group ParallelFIR /SerialFIR_tb/ParallelFIR/x
 add wave -noupdate -group ParallelFIR /SerialFIR_tb/ParallelFIR/y
@@ -72,4 +55,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ns
 update
-WaveRestoreZoom {0 ns} {4057 ns}
+WaveRestoreZoom {0 ns} {16059 ns}

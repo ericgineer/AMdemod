@@ -121,7 +121,7 @@ fid = fopen('coeff.v','w');
 
 fprintf(fid,'`timescale 1ns/1ns\n\n');
 fprintf(fid,'// File containing filter coefficients (does not compile: include in filter module)\n');
-fprintf(fid,'\n\nwire signed [7:0] mem[0:%d];\n\n',numel(hz)-1);
+fprintf(fid,'\n\nwire signed [%d:0] mem[0:%d];\n\n',bits-1,numel(hz)-1);
 for i = 1:numel(hz)
 	fprintf(fid,'assign mem[%d] = %d;\n',i-1,hz(i));
 end

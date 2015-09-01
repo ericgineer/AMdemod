@@ -6,14 +6,15 @@ module SerialFIR(input wire               clk,
                  input wire               clk_24x,
                  input wire 			  rst,
                  input wire signed [7:0]  x,
-                 output reg signed [15:0] y,
+                 output reg signed [17:0] y,
                  output reg 		      clk_out);
                
        reg signed [7:0] d1, d2, d3, d4, d5, d6, d7, d8, d9, d10,
 						d11, d12, d13, d14, d15, d16, d17, d18, d19, d20, d21;
        
-       reg signed [7:0] d_mux_out, h_mux_out;
-       reg signed [15:0] mult_out, sum_out;
+       reg signed [7:0] d_mux_out;
+       reg signed [7:0] h_mux_out;
+       reg signed [17:0] mult_out, sum_out;
        
        reg [15:0] select;
        

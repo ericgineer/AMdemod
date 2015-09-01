@@ -6,9 +6,8 @@
 module SerialFIR_tb;
 
 	reg clk, rst, clk_24x, v;
-	reg signed [7:0] coeff1, coeff2, coeff3, coeff4, coeff5;
 	reg signed [7:0] x;
-	wire signed [15:0] y_s, y_p;	
+	wire signed [17:0] y_s, y_p;	
 	
 	integer x_in, x_read, count, s_out, p_out;
 
@@ -31,11 +30,6 @@ module SerialFIR_tb;
 	 begin
 	      clk <= 1'b0;
 	      clk_24x <= 1'b0;
-	      coeff1 <= 8'd50;
-	      coeff2 <= 8'd20;
-	      coeff3 <= 8'd30;
-	      coeff4 <= 8'd10;
-	      coeff5 <= 8'd17;
 	      x <= 8'b0;
 	      v <= 1'b0;
 	      count <= 0;

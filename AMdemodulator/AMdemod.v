@@ -2,19 +2,20 @@
 
 module AMdemod(input wire clk,
 			   input wire signed [7:0] adc_data,
-			   output reg signed [59:0] demod_out,
-			   output reg 				demod_clk,
+			   output wire signed [17:0] demod_out,
+			   output wire 				demod_clk,
 			   input wire rst);
 
    wire signed [15:0] sine, cosine;
-   wire signed [59:0] cic_stage1, cic_stage2;
+   wire signed [7:0] cic_out;
    reg signed [23:0] I_tmp, Q_tmp;
    reg signed [7:0] I, Q;
    reg signed [15:0] sig_squared;
    
+   wire cic_out_clk;
    
-   reg clk_20;
-   reg [15:0] count_20, demod_count;
+   reg clk_25x;
+   reg [15:0] count_25x, demod_count;
       
 
    LO LO(.clk(clk),
@@ -25,66 +26,39 @@ module AMdemod(input wire clk,
 		 .out_valid(),
 		 .reset_n(~rst));
 		 
-    cic cic_1(.in_error(1'b0),
-			  .in_valid(1'b1),
-			  .in_ready(),  
-			  .in_data(sig_squared[15:8]),
-			  .out_data(cic_stage1),
-			  .out_error(),
-			  .out_valid(),
-			  .out_ready(1'b1),
-			  .clk(clk),
-			  .reset_n(~rst));
+	CIC CIC(.clk(clk),
+			.rst(rst),
+			.decimation_ratio(16'd125),
+	        .d_in(sig_squared >>> 8),
+	        .d_out(cic_out),
+			.d_clk(cic_out_clk));
+			
+	SerialFIR FIR(.clk(cic_out_clk),
+                  .clk_25x(clk_25x),
+                  .rst(rst),
+                  .x(cic_out),
+                  .y(demod_out),
+                  .clk_out(demod_clk));
 			  
-	cic cic_2(.in_error(1'b0),
-			  .in_valid(1'b1),
-			  .in_ready(),  
-			  .in_data(cic_stage1[59:52]),
-			  .out_data(cic_stage2),
-			  .out_error(),
-			  .out_valid(),
-			  .out_ready(1'b1),
-			  .clk(clk_20),
-			  .reset_n(~rst));
-			  
-	// Decimate by 20 clock generator
+	// 24x clock generator for Serial FIR (24x CIC out clock, not main clock)
 	always @(posedge clk)
 	begin
 		if (rst)
 		begin
-			clk_20 <= 1'b0;
-			count_20 <= 16'b0;
+			clk_25x <= 1'b0;
+			count_25x <= 16'b0;
 		end else
 		begin
-			if (count_20 != 16'd9)
-				count_20 <= count_20 + 1;
+			if (count_25x != 16'd4)
+				count_25x <= count_25x + 1;
 			else
-			begin
-				count_20 <= 16'd0;
-				clk_20 <= ~clk_20;
-			end
+				count_25x <= 16'd0;
+			if (count_25x == 16'd0)
+				clk_25x <= 1'b1;
+			if (count_25x == 16'd2)
+				clk_25x <= 1'b0;
 		end
-	end
-	
-	// Decimate by 40 clock generator
-	always @(posedge clk)
-	begin
-		if (rst)
-		begin
-			demod_clk <= 1'b0;
-			demod_count <= 16'b0;
-		end else
-		begin
-			if (demod_count != 16'd399)
-				demod_count <= demod_count + 1;
-			else
-			begin
-				demod_count <= 16'd0;
-				demod_clk <= ~demod_clk;
-			end
-		end
-	end				
-			  
+	end		  
 		 
 	always @(posedge clk)
 	begin
@@ -94,7 +68,6 @@ module AMdemod(input wire clk,
 			Q <= 16'b0;
 			I_tmp <= 24'b0;
 			Q_tmp <= 24'b0;
-			demod_out <= 8'b0;
 		end else
 		begin
 			I_tmp <= cosine * adc_data;
@@ -102,7 +75,6 @@ module AMdemod(input wire clk,
 			I <= I_tmp >>> 15;
 			Q <= Q_tmp >>> 15;
 			sig_squared <= I * I + Q * Q;
-			demod_out <= cic_stage2;
 		end
 	end
 

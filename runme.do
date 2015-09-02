@@ -7,8 +7,8 @@ vmap work work
 vlog AMdemodulator/*.v
 vlog IP/LO/simulation/*.v
 vlog IP/LO/simulation/submodules/*.vo
-vlog IP/CIC/cic/simulation/*.v
-vlog IP/CIC/cic/simulation/submodules/*.vo
+vlog IP/CIC2/*.v
+vlog IP/SerialFIR/*.v
 
 # Start simulator
 

@@ -4,12 +4,12 @@ module AMdemod_tb;
 	reg clk;
 	reg rst;
 	
-	wire signed [15:0] adc_data, mod_data;
+	wire signed [15:0] carrier, mod_data;
 	wire signed [31:0] AM_mod;
-	wire signed [59:0] demod_out;
+	wire signed [17:0] demod_out;
 	wire 			   demod_clk;
 	
-	assign AM_mod = adc_data * mod_data;
+	assign AM_mod = carrier * mod_data;
 	
 	AMdemod AMdemod(.clk(clk),
 				    .adc_data(AM_mod >>> 23),
@@ -21,13 +21,13 @@ module AMdemod_tb;
 				 .clken(1'b1),
 				 .phi_inc_i(32'd343597384),   // 10 MHz
 				 .fsin_o(),
-				 .fcos_o(adc_data),
+				 .fcos_o(carrier),
 				 .out_valid(),
 				 .reset_n(~rst));
 				 
 	  LO AM_gen (.clk(clk),
 				 .clken(1'b1),
-				 .phi_inc_i(32'd3435974),   //  100 kHz
+				 .phi_inc_i(32'd343597),   //  50 kHz
 				 .fsin_o(mod_data),
 				 .fcos_o(),
 				 .out_valid(),
@@ -47,7 +47,7 @@ module AMdemod_tb;
 		rst <= 1'b1;
 		@(posedge clk);
 		rst <= 1'b0;
-		repeat(3000) @(posedge clk);
+		repeat(20000) @(posedge clk);
 		$stop;
 	end
 endmodule

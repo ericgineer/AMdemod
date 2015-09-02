@@ -108,6 +108,6 @@ reg [15:0] count;
 
 		d10 <= d9 - d_d9;
 		
-		d_out <= d10 >>> (`width - 8);
+		d_out <= d10 >>> 33;//(`width - 8);
 	end								
 endmodule

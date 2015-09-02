@@ -3,7 +3,7 @@
 // A serial FIR filter
 
 module SerialFIR(input wire               clk,
-                 input wire               clk_24x,
+                 input wire               clk_25x,
                  input wire 			  rst,
                  input wire signed [7:0]  x,
                  output reg signed [17:0] y,
@@ -21,9 +21,9 @@ module SerialFIR(input wire               clk,
        reg sum_clr;
        
        reg [15:0] state;
-       parameter S0 = 0, S1 = 1, S2 = 2, S3 = 3, S4 = 4, S5 = 5, S6 = 6, S7 = 7;
+       parameter S0 = 0, S1 = 1, S2 = 2, S3 = 3, S4 = 4;
        
-       `include "coeff.v"
+       `include "coeff.vh"
        
        always @(posedge clk)
        begin
@@ -76,7 +76,7 @@ module SerialFIR(input wire               clk,
 	   end
 	   
 	   // Mux selector state machine
-	   always @(posedge clk_24x)
+	   always @(posedge clk_25x)
 	   begin
 			if (rst)
 				state <= S0;
@@ -88,12 +88,13 @@ module SerialFIR(input wire               clk,
 						else
 							state <= S1;
 					S2: state <= S3;
-					S3: state <= S0;
+					S3: state <= S4;
+					S4: state <= S0;
 					default: state <= S0;
 				endcase
 		end
 		
-		always @(posedge clk_24x)
+		always @(posedge clk_25x)
 		begin
 			case (state)
 				S0: begin
@@ -108,7 +109,7 @@ module SerialFIR(input wire               clk,
 			endcase
 		end
 	   
-	   always @(posedge clk_24x)
+	   always @(posedge clk_25x)
 	   begin
 			clk_out <= clk;
 			if (rst)

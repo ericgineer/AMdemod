@@ -5,7 +5,7 @@
 
 module SerialFIR_tb;
 
-	reg clk, rst, clk_24x, v;
+	reg clk, rst, clk_25x, v;
 	reg signed [7:0] x;
 	wire signed [17:0] y_s, y_p;	
 	
@@ -13,7 +13,7 @@ module SerialFIR_tb;
 
 
 	SerialFIR SerialFIR(.clk(clk),
-						.clk_24x(clk_24x),
+						.clk_25x(clk_25x),
                         .rst(rst),
 					    .x(x),
                         .y(y_s),
@@ -23,13 +23,13 @@ module SerialFIR_tb;
 	                        .x(x),
 	                        .y(y_p));
 	                        
-	 always #1 clk_24x = ~clk_24x;
-	 always #24 clk = ~clk;
+	 always #1 clk_25x = ~clk_25x;
+	 always #25 clk = ~clk;
 	 
 	 initial
 	 begin
 	      clk <= 1'b0;
-	      clk_24x <= 1'b0;
+	      clk_25x <= 1'b0;
 	      x <= 8'b0;
 	      v <= 1'b0;
 	      count <= 0;

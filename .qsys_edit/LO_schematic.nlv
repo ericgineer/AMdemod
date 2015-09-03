@@ -4,7 +4,7 @@ preplace inst LO.nco_ii_0 -pg 1 -lvl 1 -y 30
 preplace inst LO -pg 1 -lvl 1 -y 40 -regy -20
 preplace netloc EXPORT<net_container>LO</net_container>(SLAVE)LO.in,(SLAVE)nco_ii_0.in) 1 0 1 NJ
 preplace netloc EXPORT<net_container>LO</net_container>(SLAVE)LO.out,(SLAVE)nco_ii_0.out) 1 0 1 NJ
-preplace netloc EXPORT<net_container>LO</net_container>(SLAVE)nco_ii_0.clk,(SLAVE)LO.clk) 1 0 1 NJ
+preplace netloc EXPORT<net_container>LO</net_container>(SLAVE)LO.clk,(SLAVE)nco_ii_0.clk) 1 0 1 NJ
 preplace netloc EXPORT<net_container>LO</net_container>(SLAVE)LO.rst,(SLAVE)nco_ii_0.rst) 1 0 1 NJ
 levelinfo -pg 1 0 30 160
 levelinfo -hier LO 40 70 150

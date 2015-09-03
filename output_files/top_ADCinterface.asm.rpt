@@ -1,5 +1,5 @@
 Assembler report for top_ADCinterface
-Thu Aug 20 20:39:35 2015
+Wed Sep  2 23:40:02 2015
 Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
 
 
@@ -39,7 +39,7 @@ agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Thu Aug 20 20:39:35 2015 ;
+; Assembler Status      ; Successful - Wed Sep  2 23:40:02 2015 ;
 ; Revision Name         ; top_ADCinterface                      ;
 ; Top-level Entity Name ; top_ADCinterface                      ;
 ; Family                ; Cyclone V                             ;
@@ -60,7 +60,6 @@ agreement for further details.
 ; Vendor ; IP Core Name             ; License Type  ;
 +--------+--------------------------+---------------+
 ; Altera ; NCO Compiler (6AF7 0014) ; OpenCore Plus ;
-; Altera ; CIC Compiler (6AF7 00BB) ; OpenCore Plus ;
 ; Altera ; Signal Tap (6AF7 BCE1)   ; Licensed      ;
 ; Altera ; Signal Tap (6AF7 BCEC)   ; Licensed      ;
 +--------+--------------------------+---------------+
@@ -81,8 +80,8 @@ agreement for further details.
 ; Option         ; Setting                                    ;
 +----------------+--------------------------------------------+
 ; Device         ; 5CEFA2F23C8                                ;
-; JTAG usercode  ; 0x03FB5D1A                                 ;
-; Checksum       ; 0x03FB5D1A                                 ;
+; JTAG usercode  ; 0x02BC99CB                                 ;
+; Checksum       ; 0x02BC99CB                                 ;
 +----------------+--------------------------------------------+
 
 
@@ -92,16 +91,16 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
-    Info: Processing started: Thu Aug 20 20:39:20 2015
+    Info: Processing started: Wed Sep  2 23:39:49 2015
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off ADCinterface -c top_ADCinterface
 Info (115030): Assembler is generating device programming files
 Info (115017): Design contains a time-limited core -- only a single, time-limited programming file can be generated
-Warning (12914): The file, /home/eric/Documents/Verilog_stuff/AMdemod/IP/LO.sopcinfo, is not embedded into sof file as expected.  Some tools, such as System Console, may not function fully.
+Warning (12914): The file, /home/eric/GitHub/AMdemod/IP/LO.sopcinfo, is not embedded into sof file as expected.  Some tools, such as System Console, may not function fully.
 Warning (210042): Can't convert time-limited SOF into POF, HEX File, TTF, or RBF
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 1113 megabytes
-    Info: Processing ended: Thu Aug 20 20:39:36 2015
-    Info: Elapsed time: 00:00:16
-    Info: Total CPU time (on all processors): 00:00:15
+    Info: Peak virtual memory: 1093 megabytes
+    Info: Processing ended: Wed Sep  2 23:40:03 2015
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:13
 
 

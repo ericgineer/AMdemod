@@ -1,5 +1,5 @@
 EDA Netlist Writer report for top_ADCinterface
-Thu Aug 20 20:41:43 2015
+Wed Sep  2 19:25:55 2015
 Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
 
 
@@ -35,7 +35,7 @@ agreement for further details.
 +---------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                    ;
 +---------------------------+-----------------------------------+
-; EDA Netlist Writer Status ; Failed - Thu Aug 20 20:41:43 2015 ;
+; EDA Netlist Writer Status ; Failed - Wed Sep  2 19:25:55 2015 ;
 ; Revision Name             ; top_ADCinterface                  ;
 ; Top-level Entity Name     ; top_ADCinterface                  ;
 ; Family                    ; Cyclone V                         ;
@@ -48,138 +48,96 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
-    Info: Processing started: Thu Aug 20 20:41:40 2015
+    Info: Processing started: Wed Sep  2 19:25:53 2015
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off ADCinterface -c top_ADCinterface
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_channel_buffer.vhd" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/alt_cic_dec_siso.sv" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/alt_cic_core.sv" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cordic_sxor_1p_lpm.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/alt_dsp_cic_common_pkg.sv" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cordic_axor_1p_lpm.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_dxx_g.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_altqmcpipe.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_dxx.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_integrator.vhd" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_init.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_nco_isdr.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cordic_zxor_1p_lpm.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/dop_reg.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_differentiator.vhd" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_fs.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_crd_par.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_nco_apr_dxx.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_seg_sel.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_2c.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_downsample.vhd" is an OpenCore Plus time-limited file
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_channel_buffer.vhd" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/alt_cic_dec_siso.sv" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/alt_cic_core.sv" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cordic_sxor_1p_lpm.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/alt_dsp_cic_common_pkg.sv" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cordic_axor_1p_lpm.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_dxx_g.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_altqmcpipe.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_dxx.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_integrator.vhd" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_init.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_nco_isdr.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cordic_zxor_1p_lpm.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/dop_reg.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_differentiator.vhd" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_fs.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_crd_par.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_nco_apr_dxx.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_seg_sel.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_2c.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_downsample.vhd" is not available
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_channel_buffer.vhd" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/alt_cic_dec_siso.sv" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/alt_cic_core.sv" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cordic_sxor_1p_lpm.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/alt_dsp_cic_common_pkg.sv" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cordic_axor_1p_lpm.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_dxx_g.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_altqmcpipe.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_dxx.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_integrator.vhd" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_init.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_nco_isdr.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cordic_zxor_1p_lpm.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/dop_reg.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_differentiator.vhd" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_fs.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_crd_par.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_nco_apr_dxx.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_seg_sel.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_2c.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_downsample.vhd" is an OpenCore Plus time-limited file
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_channel_buffer.vhd" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/alt_cic_dec_siso.sv" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/alt_cic_core.sv" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cordic_sxor_1p_lpm.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/alt_dsp_cic_common_pkg.sv" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cordic_axor_1p_lpm.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_dxx_g.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_altqmcpipe.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_dxx.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_integrator.vhd" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_init.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_nco_isdr.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cordic_zxor_1p_lpm.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/dop_reg.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_differentiator.vhd" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_fs.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_crd_par.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_nco_apr_dxx.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_seg_sel.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_2c.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_downsample.vhd" is not available
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_channel_buffer.vhd" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/alt_cic_dec_siso.sv" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/alt_cic_core.sv" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cordic_sxor_1p_lpm.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/alt_dsp_cic_common_pkg.sv" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cordic_axor_1p_lpm.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_dxx_g.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_altqmcpipe.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_dxx.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_integrator.vhd" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_init.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_nco_isdr.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cordic_zxor_1p_lpm.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/dop_reg.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_differentiator.vhd" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_fs.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_crd_par.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_nco_apr_dxx.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_seg_sel.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_2c.v" is an OpenCore Plus time-limited file
-Error (204012): Can't generate netlist output files because the file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_downsample.vhd" is an OpenCore Plus time-limited file
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_channel_buffer.vhd" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/alt_cic_dec_siso.sv" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/alt_cic_core.sv" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cordic_sxor_1p_lpm.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/alt_dsp_cic_common_pkg.sv" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cordic_axor_1p_lpm.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_dxx_g.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_altqmcpipe.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_dxx.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_integrator.vhd" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_init.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_nco_isdr.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cordic_zxor_1p_lpm.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/dop_reg.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_differentiator.vhd" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_fs.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_crd_par.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/asj_nco_apr_dxx.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_seg_sel.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/LO/synthesis/submodules/cord_2c.v" is not available
-Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/Documents/Verilog_stuff/AMdemod/IP/CIC/cic/synthesis/submodules/auk_dspip_downsample.vhd" is not available
-Error: Quartus II 64-Bit EDA Netlist Writer was unsuccessful. 126 errors, 0 warnings
-    Error: Peak virtual memory: 1336 megabytes
-    Error: Processing ended: Thu Aug 20 20:41:44 2015
-    Error: Elapsed time: 00:00:04
-    Error: Total CPU time (on all processors): 00:00:04
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_nco_apr_dxx.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_crd_par.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_fs.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_2c.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_seg_sel.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_nco_isdr.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_init.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/dop_reg.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cordic_zxor_1p_lpm.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_dxx_g.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cordic_axor_1p_lpm.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cordic_sxor_1p_lpm.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_dxx.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_altqmcpipe.v" is an OpenCore Plus time-limited file
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_nco_apr_dxx.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_crd_par.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_fs.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_2c.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_seg_sel.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_nco_isdr.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_init.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/dop_reg.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cordic_zxor_1p_lpm.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_dxx_g.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cordic_axor_1p_lpm.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cordic_sxor_1p_lpm.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_dxx.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_altqmcpipe.v" is not available
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_nco_apr_dxx.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_crd_par.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_fs.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_2c.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_seg_sel.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_nco_isdr.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_init.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/dop_reg.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cordic_zxor_1p_lpm.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_dxx_g.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cordic_axor_1p_lpm.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cordic_sxor_1p_lpm.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_dxx.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_altqmcpipe.v" is an OpenCore Plus time-limited file
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_nco_apr_dxx.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_crd_par.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_fs.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_2c.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_seg_sel.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_nco_isdr.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_init.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/dop_reg.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cordic_zxor_1p_lpm.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_dxx_g.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cordic_axor_1p_lpm.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cordic_sxor_1p_lpm.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_dxx.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_altqmcpipe.v" is not available
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_nco_apr_dxx.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_crd_par.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_fs.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_2c.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_seg_sel.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_nco_isdr.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_init.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/dop_reg.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cordic_zxor_1p_lpm.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_dxx_g.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cordic_axor_1p_lpm.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cordic_sxor_1p_lpm.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_dxx.v" is an OpenCore Plus time-limited file
+Error (204012): Can't generate netlist output files because the file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_altqmcpipe.v" is an OpenCore Plus time-limited file
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_nco_apr_dxx.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_crd_par.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_fs.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_2c.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_seg_sel.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_nco_isdr.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cord_init.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/dop_reg.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cordic_zxor_1p_lpm.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_dxx_g.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cordic_axor_1p_lpm.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/cordic_sxor_1p_lpm.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_dxx.v" is not available
+Error (204009): Can't generate netlist output files because the license for encrypted file "/home/eric/GitHub/AMdemod/IP/LO/synthesis/submodules/asj_altqmcpipe.v" is not available
+Error: Quartus II 64-Bit EDA Netlist Writer was unsuccessful. 84 errors, 0 warnings
+    Error: Peak virtual memory: 1274 megabytes
+    Error: Processing ended: Wed Sep  2 19:25:56 2015
+    Error: Elapsed time: 00:00:03
+    Error: Total CPU time (on all processors): 00:00:03
 
 

@@ -28,7 +28,7 @@ module AMdemod(input wire clk,
 		 
 	CIC CIC(.clk(clk),
 			.rst(rst),
-			.decimation_ratio(16'd125),
+			.decimation_ratio(16'd125), // Downsample to 10 kHz
 	        .d_in(sig_squared >>> 8),
 	        .d_out(cic_out),
 			.d_clk(cic_out_clk));
@@ -40,7 +40,7 @@ module AMdemod(input wire clk,
                   .y(demod_out),
                   .clk_out(demod_clk));
 			  
-	// 24x clock generator for Serial FIR (24x CIC out clock, not main clock)
+	// 25x clock generator for Serial FIR (25x CIC out clock, not main clock)
 	always @(posedge clk)
 	begin
 		if (rst)
@@ -49,8 +49,8 @@ module AMdemod(input wire clk,
 			count_25x <= 16'b0;
 		end else
 		begin
-			if (count_25x != 16'd4)
-				count_25x <= count_25x + 1;
+			if (count_25x != 16'd4) // 25x-1
+				count_25x <= count_25x + 16'b1;
 			else
 				count_25x <= 16'd0;
 			if (count_25x == 16'd0)
@@ -64,8 +64,8 @@ module AMdemod(input wire clk,
 	begin
 		if (rst)
 		begin
-			I <= 16'b0;
-			Q <= 16'b0;
+			I <= 8'b0;
+			Q <= 8'b0;
 			I_tmp <= 24'b0;
 			Q_tmp <= 24'b0;
 		end else

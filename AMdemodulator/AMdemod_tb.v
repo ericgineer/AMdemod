@@ -27,7 +27,7 @@ module AMdemod_tb;
 				 
 	  LO AM_gen (.clk(clk),
 				 .clken(1'b1),
-				 .phi_inc_i(32'd343597),   //  50 kHz
+				 .phi_inc_i(32'd1717987),   //  50 kHz
 				 .fsin_o(mod_data),
 				 .fcos_o(),
 				 .out_valid(),

@@ -28,9 +28,9 @@
 }
 ]]></parameter>
  <parameter name="clockCrossingAdapter" value="HANDSHAKE" />
- <parameter name="device" value="5CGXFC3B6F23C6" />
+ <parameter name="device" value="5CEFA2F23C8" />
  <parameter name="deviceFamily" value="Cyclone V" />
- <parameter name="deviceSpeedGrade" value="6_H6" />
+ <parameter name="deviceSpeedGrade" value="8" />
  <parameter name="fabricMode" value="QSYS" />
  <parameter name="generateLegacySim" value="false" />
  <parameter name="generationId" value="0" />
@@ -39,7 +39,7 @@
  <parameter name="hideFromIPCatalog" value="true" />
  <parameter name="lockedInterfaceDefinition" value="" />
  <parameter name="maxAdditionalLatency" value="1" />
- <parameter name="projectName" value="" />
+ <parameter name="projectName" value="ADCinterface.qpf" />
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="0" />
  <parameter name="testBenchDutName" value="" />
@@ -76,7 +76,7 @@
   <parameter name="design_env" value="NATIVE" />
   <parameter name="dpri" value="8" />
   <parameter name="fmod_pipe" value="1" />
-  <parameter name="freq_out" value="50.0" />
+  <parameter name="freq_out" value="10.0" />
   <parameter name="fsamp" value="125.0" />
   <parameter name="mpr" value="16" />
   <parameter name="numba" value="1" />

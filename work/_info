@@ -30,33 +30,34 @@ r1
 Z3 o-work work
 n@a@d@cinterface_tb
 vAMdemod
-Z4 !s110 1441260507
+!s110 1441346834
 !i10b 1
-!s100 >BQ>H3?7AcjdU9;_dP^0L1
-I148_fZaE]Sd]95[B>o3eB0
+!s100 E]?@UnQamK0WzF`THZ>f90
+IRl>4dQe4dCl4^l4=DLn4B1
 R1
 R0
-w1441253642
-8AMdemodulator/AMdemod.v
-FAMdemodulator/AMdemod.v
+w1441346828
+8/home/eric/GitHub/AMdemod/AMdemodulator/AMdemod.v
+F/home/eric/GitHub/AMdemod/AMdemodulator/AMdemod.v
 L0 3
 R2
 r1
 !s85 0
 31
-!s108 1441260507.458200
-!s107 AMdemodulator/AMdemod_tb.v|AMdemodulator/AMdemod.v|
-!s90 -reportprogress|300|AMdemodulator/AMdemod.v|AMdemodulator/AMdemod_tb.v|
+!s108 1441346834.140868
+!s107 /home/eric/GitHub/AMdemod/AMdemodulator/AMdemod.v|
+!s90 -reportprogress|300|-work|work|/home/eric/GitHub/AMdemod/AMdemodulator/AMdemod.v|
 !i113 1
+R3
 n@a@mdemod
 vAMdemod_tb
-!s110 1441261768
+!s110 1441346655
 !i10b 1
-!s100 ?`_@MHVjP3=Bn=88O4l_a2
-I4[`HIoXRN?ZJi25j7@e]91
+!s100 Q;@hnYN8jS729C^UbTIo:2
+I@X8MXJ?@f3@ULV^?A@EFR0
 R1
 R0
-w1441261761
+w1441346649
 8/home/eric/GitHub/AMdemod/AMdemodulator/AMdemod_tb.v
 F/home/eric/GitHub/AMdemod/AMdemodulator/AMdemod_tb.v
 L0 3
@@ -64,32 +65,31 @@ R2
 r1
 !s85 0
 31
-!s108 1441261768.569527
+!s108 1441346655.480658
 !s107 /home/eric/GitHub/AMdemod/AMdemodulator/AMdemod_tb.v|
 !s90 -reportprogress|300|-work|work|/home/eric/GitHub/AMdemod/AMdemodulator/AMdemod_tb.v|
 !i113 1
 R3
 n@a@mdemod_tb
 vCIC
-!s110 1441261127
+Z4 !s110 1441345852
 !i10b 1
-!s100 k6?n^lBWzH]BBOTV=bG5Z2
-I6;g0E3Cm;1l__BK_GSXgd0
+!s100 `J[O`HaQBG3aX7Xi`RV:U1
+IXGf^:Re6;ZGO^>VW18?272
 R1
 R0
-w1441261117
-8/home/eric/GitHub/AMdemod/IP/CIC/CIC.v
-F/home/eric/GitHub/AMdemod/IP/CIC/CIC.v
-L0 5
+w1441344826
+8IP/CIC/CIC.v
+FIP/CIC/CIC.v
+L0 3
 R2
 r1
 !s85 0
 31
-!s108 1441261127.481991
-!s107 /home/eric/GitHub/AMdemod/IP/CIC/CIC.v|
-!s90 -reportprogress|300|-work|work|/home/eric/GitHub/AMdemod/IP/CIC/CIC.v|
+Z5 !s108 1441345852.200936
+Z6 !s107 IP/CIC/CIC_tb.v|IP/CIC/CIC.v|
+Z7 !s90 -reportprogress|300|IP/CIC/CIC.v|IP/CIC/CIC_tb.v|
 !i113 1
-R3
 n@c@i@c
 vCIC_tb
 R4
@@ -106,13 +106,13 @@ R2
 r1
 !s85 0
 31
-!s108 1441260507.853017
-!s107 IP/CIC/CIC_tb.v|IP/CIC/CIC.v|
-!s90 -reportprogress|300|IP/CIC/CIC.v|IP/CIC/CIC_tb.v|
+R5
+R6
+R7
 !i113 1
 n@c@i@c_tb
 vLO
-R4
+!s110 1441345851
 !i10b 1
 !s100 ]:UGDLPZW2A4ak>6YeDEj1
 I48m=;82giWOJ;M0^0YP[70
@@ -126,7 +126,7 @@ R2
 r1
 !s85 0
 31
-!s108 1441260507.533685
+!s108 1441345851.878470
 !s107 IP/LO/simulation/LO.v|
 !s90 -reportprogress|300|IP/LO/simulation/LO.v|
 !i113 1
@@ -146,7 +146,7 @@ R2
 r1
 !s85 0
 31
-!s108 1441260507.580328
+!s108 1441345851.923384
 !s107 IP/LO/simulation/submodules/LO_nco_ii_0.vo|
 !s90 -reportprogress|300|IP/LO/simulation/submodules/LO_nco_ii_0.vo|
 !i113 1
@@ -161,15 +161,15 @@ R0
 w1441160981
 8IP/SerialFIR/ParallelFIR.v
 FIP/SerialFIR/ParallelFIR.v
-Z5 FIP/SerialFIR/coeff.vh
+Z8 FIP/SerialFIR/coeff.vh
 L0 6
 R2
 r1
 !s85 0
 31
-Z6 !s108 1441260507.926678
-Z7 !s107 IP/SerialFIR/coeff.vh|IP/SerialFIR/SerialFIR_tb.v|IP/SerialFIR/SerialFIR.v|IP/SerialFIR/ParallelFIR.v|
-Z8 !s90 -reportprogress|300|IP/SerialFIR/ParallelFIR.v|IP/SerialFIR/SerialFIR.v|IP/SerialFIR/SerialFIR_tb.v|
+Z9 !s108 1441345852.264913
+Z10 !s107 IP/SerialFIR/coeff.vh|IP/SerialFIR/SerialFIR_tb.v|IP/SerialFIR/SerialFIR.v|IP/SerialFIR/ParallelFIR.v|
+Z11 !s90 -reportprogress|300|IP/SerialFIR/ParallelFIR.v|IP/SerialFIR/SerialFIR.v|IP/SerialFIR/SerialFIR_tb.v|
 !i113 1
 n@parallel@f@i@r
 vSerialFIR
@@ -182,15 +182,15 @@ R0
 w1441166619
 8IP/SerialFIR/SerialFIR.v
 FIP/SerialFIR/SerialFIR.v
-R5
+R8
 L0 5
 R2
 r1
 !s85 0
 31
-R6
-R7
-R8
+R9
+R10
+R11
 !i113 1
 n@serial@f@i@r
 vSerialFIR_tb
@@ -208,8 +208,8 @@ R2
 r1
 !s85 0
 31
-R6
-R7
-R8
+R9
+R10
+R11
 !i113 1
 n@serial@f@i@r_tb

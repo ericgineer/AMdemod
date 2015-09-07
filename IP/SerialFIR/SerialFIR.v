@@ -111,7 +111,7 @@ module SerialFIR(input wire               clk,
 	   
 	   always @(posedge clk_25x)
 	   begin
-			clk_out <= clk;
+			clk_out <= ~clk;
 			if (rst)
 			begin
 				mult_out <= 16'b0;

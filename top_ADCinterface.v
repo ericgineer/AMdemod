@@ -32,9 +32,12 @@ module top_ADCinterface(input  wire [7:0]  adc_dataandclock_adc_data,  //   adc_
 	wire [7:0] ch_a_data, ch_b_data;
 	
 	wire signed [31:0] AM_mod;
-	wire signed [15:0] adc_data, mod_data;
+	wire signed [15:0] carrier, mod_data;
+	wire signed [7:0]  sig_in;
 	
-	assign AM_mod = adc_data * mod_data;
+	assign AM_mod = carrier * mod_data;
+	
+	assign sig_in = (buttonsandswitches_sw1) ? (AM_mod >>> 23) : ch_a_data;
 
 	ADCinterface_qsys ADCinterface(.adc_dataandclock_adc_clk(adc_dataandclock_adc_clk),
 								   .adc_interface_adc_csbn(adc_interface_adc_csbn),
@@ -75,13 +78,13 @@ module top_ADCinterface(input  wire [7:0]  adc_dataandclock_adc_data,  //   adc_
 						
 	
 	AMdemod AMdemod(.clk(adc_dataandclock_adc_clk),
-			        .adc_data(AM_mod >>> 23),
+			        .adc_data(sig_in),
 			        .rst(1'b0));
 			        
 		LO sig_gen(.clk(adc_dataandclock_adc_clk),
 					 .clken(1'b1),
 					 .phi_inc_i(32'd343597384),   // 10 MHz
-					 .fsin_o(adc_data),
+					 .fsin_o(carrier),
 					 .fcos_o(),
 					 .out_valid(),
 					 .reset_n(1'b1));

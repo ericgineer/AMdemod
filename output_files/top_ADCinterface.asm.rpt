@@ -1,5 +1,5 @@
 Assembler report for top_ADCinterface
-Wed Sep  2 23:40:02 2015
+Sun Sep  6 18:09:43 2015
 Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
 
 
@@ -39,7 +39,7 @@ agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Wed Sep  2 23:40:02 2015 ;
+; Assembler Status      ; Successful - Sun Sep  6 18:09:43 2015 ;
 ; Revision Name         ; top_ADCinterface                      ;
 ; Top-level Entity Name ; top_ADCinterface                      ;
 ; Family                ; Cyclone V                             ;
@@ -80,8 +80,8 @@ agreement for further details.
 ; Option         ; Setting                                    ;
 +----------------+--------------------------------------------+
 ; Device         ; 5CEFA2F23C8                                ;
-; JTAG usercode  ; 0x02BC99CB                                 ;
-; Checksum       ; 0x02BC99CB                                 ;
+; JTAG usercode  ; 0x017CC757                                 ;
+; Checksum       ; 0x017CC757                                 ;
 +----------------+--------------------------------------------+
 
 
@@ -91,16 +91,16 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
-    Info: Processing started: Wed Sep  2 23:39:49 2015
+    Info: Processing started: Sun Sep  6 18:09:32 2015
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off ADCinterface -c top_ADCinterface
 Info (115030): Assembler is generating device programming files
 Info (115017): Design contains a time-limited core -- only a single, time-limited programming file can be generated
 Warning (12914): The file, /home/eric/GitHub/AMdemod/IP/LO.sopcinfo, is not embedded into sof file as expected.  Some tools, such as System Console, may not function fully.
 Warning (210042): Can't convert time-limited SOF into POF, HEX File, TTF, or RBF
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 1093 megabytes
-    Info: Processing ended: Wed Sep  2 23:40:03 2015
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:13
+    Info: Peak virtual memory: 1071 megabytes
+    Info: Processing ended: Sun Sep  6 18:09:43 2015
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:11
 
 
